@@ -14,6 +14,7 @@
 #import "JKViewModel.h"
 #import "JKBaseViewModel.h"
 #import "AppDelegate.h"
+#import "JKViewController2.h"
 
 static NSString *const MyCellIdentifier = @"JKCell";
 
@@ -46,6 +47,11 @@ static NSString *const MyCellIdentifier = @"JKCell";
     DidSelectCellBlock selectBlock = ^(NSIndexPath *indexPath, JKModel *obj){
         [weakSelf.table deselectRowAtIndexPath:indexPath animated:YES];
         NSLog(@"click row : %@",@(indexPath.row));
+        UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        JKViewController2 *vc = [sb instantiateViewControllerWithIdentifier:@"ViewController2ID"];
+        [weakSelf presentViewController:vc
+                               animated:YES
+                             completion:nil];
         
     };
     

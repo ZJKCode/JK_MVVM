@@ -18,7 +18,6 @@ typedef CGFloat(^CellHeightBlock)(NSIndexPath *indexPath, id item);
 @class JKBaseViewModel;
 @interface JKTableDataDelegate : NSObject<UITableViewDataSource,UITableViewDelegate>
 
-
 - (id) initWithSelFriendsDelegate:(JKBaseViewModel *)viewModel
                    cellIdentifier:(NSString *)aIdentifier
                configureCellBlock:(TableViewCellConfigureBlock)aConfigCellBlock

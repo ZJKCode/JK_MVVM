@@ -15,6 +15,13 @@
 		336C52D01C3FFE4100B82743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336C52CE1C3FFE4100B82743 /* LaunchScreen.storyboard */; };
 		336C52DB1C3FFE4200B82743 /* JK_MVVMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 336C52DA1C3FFE4200B82743 /* JK_MVVMTests.m */; };
 		336C52E61C3FFE4200B82743 /* JK_MVVMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 336C52E51C3FFE4200B82743 /* JK_MVVMUITests.m */; };
+		33C9D1B21C4343BB00AA47B7 /* UICollectionViewCell+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C9D1B11C4343BB00AA47B7 /* UICollectionViewCell+Extension.m */; };
+		33C9D1B51C4345C100AA47B7 /* JKCollectionDataDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C9D1B41C4345C100AA47B7 /* JKCollectionDataDelegate.m */; };
+		33C9D1BD1C43515E00AA47B7 /* JKViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C9D1BC1C43515E00AA47B7 /* JKViewController2.m */; };
+		33C9D1C01C4351D200AA47B7 /* JKModel2.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C9D1BF1C4351D200AA47B7 /* JKModel2.m */; };
+		33C9D1C41C43526F00AA47B7 /* JKCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C9D1C21C43526F00AA47B7 /* JKCollectionCell.m */; };
+		33C9D1C51C43526F00AA47B7 /* JKCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33C9D1C31C43526F00AA47B7 /* JKCollectionCell.xib */; };
+		33C9D1C81C4353DF00AA47B7 /* JKViewModel2.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C9D1C71C4353DF00AA47B7 /* JKViewModel2.m */; };
 		33E82A671C42758C00F57372 /* JKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E82A5C1C42758C00F57372 /* JKViewController.m */; };
 		33E82A681C42758C00F57372 /* JKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E82A5F1C42758C00F57372 /* JKModel.m */; };
 		33E82A691C42758C00F57372 /* JKCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E82A621C42758C00F57372 /* JKCell.m */; };
@@ -63,6 +70,19 @@
 		336C52E11C3FFE4200B82743 /* JK_MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JK_MVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		336C52E51C3FFE4200B82743 /* JK_MVVMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JK_MVVMUITests.m; sourceTree = "<group>"; };
 		336C52E71C3FFE4200B82743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33C9D1B01C4343BB00AA47B7 /* UICollectionViewCell+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+Extension.h"; sourceTree = "<group>"; };
+		33C9D1B11C4343BB00AA47B7 /* UICollectionViewCell+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+Extension.m"; sourceTree = "<group>"; };
+		33C9D1B31C4345C100AA47B7 /* JKCollectionDataDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKCollectionDataDelegate.h; sourceTree = "<group>"; };
+		33C9D1B41C4345C100AA47B7 /* JKCollectionDataDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKCollectionDataDelegate.m; sourceTree = "<group>"; };
+		33C9D1BB1C43515E00AA47B7 /* JKViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKViewController2.h; sourceTree = "<group>"; };
+		33C9D1BC1C43515E00AA47B7 /* JKViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKViewController2.m; sourceTree = "<group>"; };
+		33C9D1BE1C4351D200AA47B7 /* JKModel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKModel2.h; sourceTree = "<group>"; };
+		33C9D1BF1C4351D200AA47B7 /* JKModel2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKModel2.m; sourceTree = "<group>"; };
+		33C9D1C11C43526F00AA47B7 /* JKCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKCollectionCell.h; sourceTree = "<group>"; };
+		33C9D1C21C43526F00AA47B7 /* JKCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKCollectionCell.m; sourceTree = "<group>"; };
+		33C9D1C31C43526F00AA47B7 /* JKCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKCollectionCell.xib; sourceTree = "<group>"; };
+		33C9D1C61C4353DF00AA47B7 /* JKViewModel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKViewModel2.h; sourceTree = "<group>"; };
+		33C9D1C71C4353DF00AA47B7 /* JKViewModel2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKViewModel2.m; sourceTree = "<group>"; };
 		33E82A5B1C42758C00F57372 /* JKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKViewController.h; sourceTree = "<group>"; };
 		33E82A5C1C42758C00F57372 /* JKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKViewController.m; sourceTree = "<group>"; };
 		33E82A5E1C42758C00F57372 /* JKModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKModel.h; sourceTree = "<group>"; };
@@ -190,6 +210,65 @@
 			path = JK_MVVMUITests;
 			sourceTree = "<group>";
 		};
+		33C9D1AF1C43437B00AA47B7 /* JKCollectionDataDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				33C9D1B31C4345C100AA47B7 /* JKCollectionDataDelegate.h */,
+				33C9D1B41C4345C100AA47B7 /* JKCollectionDataDelegate.m */,
+				33C9D1B01C4343BB00AA47B7 /* UICollectionViewCell+Extension.h */,
+				33C9D1B11C4343BB00AA47B7 /* UICollectionViewCell+Extension.m */,
+			);
+			path = JKCollectionDataDelegate;
+			sourceTree = "<group>";
+		};
+		33C9D1B61C4350EC00AA47B7 /* Example2 */ = {
+			isa = PBXGroup;
+			children = (
+				33C9D1B71C43514000AA47B7 /* Controller */,
+				33C9D1B81C43514000AA47B7 /* Model */,
+				33C9D1B91C43514000AA47B7 /* VIew */,
+				33C9D1BA1C43514000AA47B7 /* ViewModel */,
+			);
+			path = Example2;
+			sourceTree = "<group>";
+		};
+		33C9D1B71C43514000AA47B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33C9D1BB1C43515E00AA47B7 /* JKViewController2.h */,
+				33C9D1BC1C43515E00AA47B7 /* JKViewController2.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		33C9D1B81C43514000AA47B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33C9D1BE1C4351D200AA47B7 /* JKModel2.h */,
+				33C9D1BF1C4351D200AA47B7 /* JKModel2.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33C9D1B91C43514000AA47B7 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				33C9D1C11C43526F00AA47B7 /* JKCollectionCell.h */,
+				33C9D1C21C43526F00AA47B7 /* JKCollectionCell.m */,
+				33C9D1C31C43526F00AA47B7 /* JKCollectionCell.xib */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		33C9D1BA1C43514000AA47B7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				33C9D1C61C4353DF00AA47B7 /* JKViewModel2.h */,
+				33C9D1C71C4353DF00AA47B7 /* JKViewModel2.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		33E82A591C42758C00F57372 /* Example1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +341,7 @@
 			isa = PBXGroup;
 			children = (
 				33E82A591C42758C00F57372 /* Example1 */,
+				33C9D1B61C4350EC00AA47B7 /* Example2 */,
 			);
 			path = Src;
 			sourceTree = "<group>";
@@ -296,6 +376,7 @@
 		33FBAC7A1C40CC0B00A9D433 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				33C9D1AF1C43437B00AA47B7 /* JKCollectionDataDelegate */,
 				334285861C4249D6000F595D /* JKTableDataDelegate */,
 				33FBAC7B1C40CC2700A9D433 /* BaseViewModel */,
 			);
@@ -427,6 +508,7 @@
 			files = (
 				336C52D01C3FFE4100B82743 /* LaunchScreen.storyboard in Resources */,
 				336C52CD1C3FFE4100B82743 /* Assets.xcassets in Resources */,
+				33C9D1C51C43526F00AA47B7 /* JKCollectionCell.xib in Resources */,
 				33E82A6A1C42758C00F57372 /* JKCell.xib in Resources */,
 				336C52CB1C3FFE4100B82743 /* Main.storyboard in Resources */,
 			);
@@ -501,17 +583,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33C9D1B21C4343BB00AA47B7 /* UICollectionViewCell+Extension.m in Sources */,
 				33E82A6B1C42758C00F57372 /* JKViewModel.m in Sources */,
+				33C9D1C01C4351D200AA47B7 /* JKModel2.m in Sources */,
 				3342858B1C4249D6000F595D /* JKTableDataDelegate.m in Sources */,
 				33E82A671C42758C00F57372 /* JKViewController.m in Sources */,
+				33C9D1BD1C43515E00AA47B7 /* JKViewController2.m in Sources */,
 				33FBAC751C40BE5200A9D433 /* UIView+Extension.m in Sources */,
 				3342858C1C4249D6000F595D /* UITableViewCell+Extension.m in Sources */,
 				33FBAC791C40C5B500A9D433 /* AppDelegate.m in Sources */,
 				33E82A681C42758C00F57372 /* JKModel.m in Sources */,
 				33FBAC7E1C40CC6B00A9D433 /* JKBaseViewModel.m in Sources */,
+				33C9D1C81C4353DF00AA47B7 /* JKViewModel2.m in Sources */,
 				33E82A691C42758C00F57372 /* JKCell.m in Sources */,
 				33FBAC711C40B61800A9D433 /* JKHttpTool.m in Sources */,
 				336C52C21C3FFE4100B82743 /* main.m in Sources */,
+				33C9D1C41C43526F00AA47B7 /* JKCollectionCell.m in Sources */,
+				33C9D1B51C4345C100AA47B7 /* JKCollectionDataDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

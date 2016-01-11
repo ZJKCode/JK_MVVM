@@ -21,7 +21,7 @@
                             <constraint firstAttribute="height" constant="21" id="6tF-Ob-hOT"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qHQ-fe-c30">
@@ -30,7 +30,7 @@
                             <constraint firstAttribute="height" constant="21" id="9DL-CK-BeU"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                         <variation key="default">
                             <mask key="constraints">
@@ -40,6 +40,9 @@
                     </label>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xuW-CP-SFI">
                         <rect key="frame" x="12" y="56" width="256" height="110.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="256" id="Llg-x9-M49"/>
+                        </constraints>
                     </imageView>
                 </subviews>
                 <constraints>
@@ -58,6 +61,7 @@
                 <variation key="default">
                     <mask key="constraints">
                         <exclude reference="CjR-fN-O6D"/>
+                        <exclude reference="lAB-lR-Dwe"/>
                     </mask>
                 </variation>
             </tableViewCellContentView>
