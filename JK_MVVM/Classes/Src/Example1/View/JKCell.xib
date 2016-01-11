@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="173" id="db5-1Z-CRc" customClass="JKCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="173"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="db5-1Z-CRc" id="TKF-g7-C2I">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="172.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6M-Gg-tAZ">
+                        <rect key="frame" x="10" y="10" width="304" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="6tF-Ob-hOT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qHQ-fe-c30">
+                        <rect key="frame" x="10" y="33" width="300" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="9DL-CK-BeU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="9DL-CK-BeU"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xuW-CP-SFI">
+                        <rect key="frame" x="12" y="56" width="256" height="110.5"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="w6M-Gg-tAZ" firstAttribute="leading" secondItem="TKF-g7-C2I" secondAttribute="leadingMargin" constant="2" id="3UQ-d8-1Dp"/>
+                    <constraint firstItem="xuW-CP-SFI" firstAttribute="top" secondItem="w6M-Gg-tAZ" secondAttribute="bottom" constant="2" id="CjR-fN-O6D"/>
+                    <constraint firstItem="w6M-Gg-tAZ" firstAttribute="top" secondItem="TKF-g7-C2I" secondAttribute="topMargin" constant="2" id="L23-IG-53H"/>
+                    <constraint firstItem="xuW-CP-SFI" firstAttribute="leading" secondItem="TKF-g7-C2I" secondAttribute="leadingMargin" constant="4" id="Ntm-ya-XNE"/>
+                    <constraint firstItem="qHQ-fe-c30" firstAttribute="top" secondItem="w6M-Gg-tAZ" secondAttribute="bottom" constant="2" id="Sm0-Ec-tbn"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="qHQ-fe-c30" secondAttribute="trailing" constant="2" id="TCG-ku-YtB"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="xuW-CP-SFI" secondAttribute="trailing" constant="44" id="lAB-lR-Dwe"/>
+                    <constraint firstItem="xuW-CP-SFI" firstAttribute="bottom" secondItem="TKF-g7-C2I" secondAttribute="bottomMargin" constant="2" id="o2P-Bh-tXo"/>
+                    <constraint firstItem="qHQ-fe-c30" firstAttribute="leading" secondItem="TKF-g7-C2I" secondAttribute="leadingMargin" constant="2" id="owh-IQ-EDa"/>
+                    <constraint firstItem="xuW-CP-SFI" firstAttribute="top" secondItem="qHQ-fe-c30" secondAttribute="bottom" constant="2" id="qrt-Po-FaY"/>
+                    <constraint firstItem="w6M-Gg-tAZ" firstAttribute="trailing" secondItem="TKF-g7-C2I" secondAttribute="trailingMargin" constant="2" id="yta-ly-cwg"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="CjR-fN-O6D"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="containtImage" destination="xuW-CP-SFI" id="Etr-Cx-f2G"/>
+                <outlet property="lbHeight" destination="qHQ-fe-c30" id="njJ-kG-IdO"/>
+                <outlet property="lbTitle" destination="w6M-Gg-tAZ" id="cFR-Lh-h1N"/>
+            </connections>
+            <point key="canvasLocation" x="185" y="13.5"/>
+        </tableViewCell>
+    </objects>
+</document>
