@@ -155,10 +155,6 @@
 			isa = PBXGroup;
 			children = (
 				33FBAC6B1C40B59100A9D433 /* Classes */,
-				336C52C91C3FFE4100B82743 /* Main.storyboard */,
-				336C52CC1C3FFE4100B82743 /* Assets.xcassets */,
-				336C52CE1C3FFE4100B82743 /* LaunchScreen.storyboard */,
-				336C52D11C3FFE4100B82743 /* Info.plist */,
 				336C52C01C3FFE4100B82743 /* Supporting Files */,
 			);
 			path = JK_MVVM;
@@ -167,6 +163,10 @@
 		336C52C01C3FFE4100B82743 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				336C52C91C3FFE4100B82743 /* Main.storyboard */,
+				336C52CC1C3FFE4100B82743 /* Assets.xcassets */,
+				336C52CE1C3FFE4100B82743 /* LaunchScreen.storyboard */,
+				336C52D11C3FFE4100B82743 /* Info.plist */,
 				336C52C11C3FFE4100B82743 /* main.m */,
 			);
 			name = "Supporting Files";

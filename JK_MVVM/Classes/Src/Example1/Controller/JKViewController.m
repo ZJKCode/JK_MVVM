@@ -27,21 +27,11 @@ static NSString *const MyCellIdentifier = @"JKCell";
 -(void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
     [self setupTableView];
-    
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示"
-                                                                   message:@"网络异常"
-                                                            preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
-        [alert dismissViewControllerAnimated:YES completion:nil];
-    }];
-    
-    [alert addAction:cancelAction];
-    
-    AppDelegate *app = [UIApplication sharedApplication].delegate;
-    UIViewController *root = app.window.rootViewController;
-    [root presentViewController:alert animated:YES completion:nil];
-    
+
+
 }
 
 - (void)setupTableView

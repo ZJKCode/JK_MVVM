@@ -45,15 +45,24 @@
 + (void)get:(NSString *)url params:(NSDictionary *)params success:(HttpSuccess)success failure:(HttpFailure)failure{
     if ([AFNetworkReachabilityManager manager].isReachable) {
         // 发送请求
-        [[JKHttpTool defaultJKHttpTool].manager GET:url parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-            if (success) success(responseObject);
+        [[JKHttpTool defaultJKHttpTool].manager GET:url
+                                         parameters:params
+                                           progress:nil
+                                            success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+           
+                                                if (success) success(responseObject);
             
-        } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-            if (failure) failure (error);
+       
+                                            } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+           
+                                                if (failure) failure (error);
             
-        }];
+       
+                                            }];
         
+   
     } else {
+       
         [JKHttpTool showExceptionDialog];
     }
     
@@ -62,12 +71,20 @@
 
 + (void)post:(NSString *)url params:(NSDictionary *)params success:(HttpSuccess)success failure:(HttpFailure)failure{
     if ([AFNetworkReachabilityManager manager].reachable) {
-        [[JKHttpTool defaultJKHttpTool].manager POST:url parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-            if (success) success(responseObject);
+        [[JKHttpTool defaultJKHttpTool].manager POST:url
+                                          parameters:params
+                                            progress:nil
+                                             success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
             
-        } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-            if (failure) failure(error);
-        }];
+                                                 if (success) success(responseObject);
+            
+       
+                                             } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+          
+                                                 if (failure) failure(error);
+       
+                                             }];
+   
     }else {
         [JKHttpTool showExceptionDialog];
     }
@@ -76,26 +93,15 @@
 
 + (void)showExceptionDialog
 {
-//    [[[UIAlertView alloc] initWithTitle:@"提示"
-//                                message:@"网络异常，请检查网络链接"
-//                               delegate:nil
-//                      cancelButtonTitle:@"确定"
-//                      otherButtonTitles:nil, nil] show];
-//    
-    
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示"
-                                                                   message:@"网络异常"
-                                                            preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
-        [alert dismissViewControllerAnimated:YES completion:nil];
-    }];
-    
-    [alert addAction:cancelAction];
-    
-    AppDelegate *app = [UIApplication sharedApplication].delegate;
-    UIViewController *root = app.window.rootViewController;
-    [root presentViewController:alert animated:YES completion:nil];
-    
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-declarations"
+    [[[UIAlertView alloc] initWithTitle:@"提示"
+                                message:@"网络异常，请检查网络链接"
+                               delegate:nil
+                      cancelButtonTitle:@"确定"
+                      otherButtonTitles:nil, nil] show];
+#pragma clang diagnostic pop
+
     
 }
 @end

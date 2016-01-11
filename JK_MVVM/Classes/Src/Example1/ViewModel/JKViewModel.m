@@ -24,7 +24,10 @@
 
 }
 
--(void)getDataList:(NSString *)url params:(NSDictionary *)params success:(void (^)(NSArray *))success falure:(void (^)(NSError *))failure
+-(void)getDataList:(NSString *)url
+            params:(NSDictionary *)params
+           success:(void (^)(NSArray *))success
+            falure:(void (^)(NSError *))failure
 {
 
     //网络请求下载数据
@@ -39,7 +42,7 @@
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         for (int i = 0; i<10; i++) {
             JKModel *model = [[JKModel alloc] init];
-            model.name = [NSString stringWithFormat:@"jk_name is :%d",i+1];
+            model.name = [NSString stringWithFormat:@"jk_name is : %d",i+1];
             model.height = 150 + i*5;
             [self.dataArrayList addObject:model];
         }
