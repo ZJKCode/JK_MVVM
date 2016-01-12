@@ -65,6 +65,6 @@ static NSString *const MyCellIdentifier = @"JKCell";
    
     [self.tableHander handelTableViewDatasourceAndDelegate:_table];
     
-    
 }
+
 @end

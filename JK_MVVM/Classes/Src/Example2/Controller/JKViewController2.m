@@ -43,13 +43,14 @@ static NSString *const myCellIdentifier = @"JKCollectionCell";
     };
     //配置collectionView的每个item的size
     CellItemSize cellItemSizeBlock = ^{
-        return CGSizeMake(130, 150);
+        return CGSizeMake(130, 180);
     };
     //配置collectionView的每个item的margin
     CellItemMargin cellItemMarginBlock = ^{
         return UIEdgeInsetsMake(0, 20, 0, 20);
     };
     
+    //将上面的block给collectionHander
     self.collectionHander = [[JKCollectionDataDelegate alloc] initWithSelFriendsDelegate:[[JKViewModel2 alloc] init]
                                                                           cellIdentifier:myCellIdentifier
                                                                     collectionViewLayout:[[UICollectionViewFlowLayout alloc] init] // 可以使用自定义的UICollectionViewLayout

@@ -329,8 +329,8 @@
 		33FBAC6C1C40B5BA00A9D433 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				33FBAC761C40C5B500A9D433 /* Delegate */,
 				33FBAC7A1C40CC0B00A9D433 /* Base */,
-				33FBAC761C40C5B500A9D433 /* Other */,
 				33FBAC721C40BE3400A9D433 /* Category */,
 				33FBAC6E1C40B5E000A9D433 /* NetWork */,
 			);
@@ -364,12 +364,13 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		33FBAC761C40C5B500A9D433 /* Other */ = {
+		33FBAC761C40C5B500A9D433 /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
 				33FBAC771C40C5B500A9D433 /* AppDelegate.h */,
 				33FBAC781C40C5B500A9D433 /* AppDelegate.m */,
 			);
+			name = Delegate;
 			path = Other;
 			sourceTree = "<group>";
 		};
