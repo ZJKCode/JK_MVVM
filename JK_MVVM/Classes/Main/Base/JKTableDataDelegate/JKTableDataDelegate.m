@@ -10,7 +10,7 @@
 #import "UITableViewCell+Extension.h"
 #import "JKBaseViewModel.h"
 #import <MJRefresh/MJRefresh.h>
-#import <UITableView+FDTemplateLayoutCell/UITableView+FDTemplateLayoutCell.h>
+#import "UITableView+FDTemplateLayoutCell.h"
 
 @interface JKTableDataDelegate ()
 

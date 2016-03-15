@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '515842F0C0E0594A1ABC2039'
+               BlueprintIdentifier = 'B6AB82E4A2E0550E96F43462'
                BlueprintName = 'UITableView+FDTemplateLayoutCell'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libUITableView+FDTemplateLayoutCell.a'>
+               BuildableName = 'UITableView_FDTemplateLayoutCell.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

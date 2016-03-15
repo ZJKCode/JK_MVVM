@@ -10,8 +10,8 @@
 #import <UIKit/UIKit.h>
 @interface JKBaseViewModel : NSObject
 
-@property (nonatomic, weak)UIViewController *viewController;
-@property (nonatomic, strong)NSMutableArray *dataArrayList;
+@property (nonatomic, weak  ) UIViewController *viewController;
+@property (nonatomic, strong) NSMutableArray   *dataArrayList;
 
 + (instancetype)modelWithViewController:(UIViewController *)viewController;
 
