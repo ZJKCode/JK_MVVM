@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>JKMVVMDoc.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>JK_MVVM.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>03F0537F1D9A1D80009AF040</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>336C52BC1C3FFE4100B82743</key>
 		<dict>
 			<key>primary</key>

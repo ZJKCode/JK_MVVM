@@ -1,11 +1,13 @@
-//
-//  UIView+Extension.h
-//  JK_MVVM
-//
-//  Created by zhang_jk on 16/1/9.
-//  Copyright © 2016年 pactera. All rights reserved.
-//
-
+/*!
+ @header UIView+Extension.h
+ 
+ @abstract  类别 获得view视图的属性信息
+ @author Created by zhangjikuan on 2016/9/27.
+ 
+ @version 1.00 2016/9/27 Creation
+ 
+ Copyright © 2016年 zhang_jk. All rights reserved.
+ */
 #import <UIKit/UIKit.h>
 
 @interface UIView (Extension)
