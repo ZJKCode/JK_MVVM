@@ -1,12 +1,15 @@
-//
-//  UICollectionViewCell+Extension.h
-//  JK_MVVM
-//
-//  Created by zhang_jk on 16/1/11.
-//  Copyright © 2016年 pactera. All rights reserved.
-//
-
+/*!
+ @header UICollectionViewCell+Extension.h
+ 
+ @abstract  类别扩展
+ @author Created by zhangjikuan on 2016/9/27.
+ 
+ @version 1.00 2016/9/27 Creation
+ 
+ Copyright © 2016年 zhang_jk. All rights reserved.
+ */
 #import <UIKit/UIKit.h>
+
 
 @interface UICollectionViewCell (Extension)
 /*!
@@ -19,6 +22,7 @@
 /*!
  *  配置UICollectionViewcell，设置UICollectionViewcell内容
  */
+
 - (void)configure:(UICollectionViewCell *)cell
         customObj:(id)obj
         indexPath:(NSIndexPath *)indexPath;
@@ -26,6 +30,7 @@
 /*!
  * 获取自定义对象Cell的高度
  */
+
 + (CGFloat)getItemHeightWithCustomObj:(id)obj
                             indexPath:(NSIndexPath *)indexPath;
 

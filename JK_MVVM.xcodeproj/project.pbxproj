@@ -563,7 +563,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# shell script goes here\n\nmkdir -p headerDoc\n\nfind ${SRCROOT} \\*.h -print | xargs headerdoc2html -o headerDoc\n\ngatherheaderdoc headerDoc\n\nexit 0";
+			shellScript = "# shell script goes here\n\nheaderdoc2html -o ~/Desktop/mvvm/JKMVVMDoc  /Users/zhangkuan/Public/developer/Github/JK_MVVM\n\ngatherheaderdoc ~/Desktop/mvvm/JKMVVMDoc index.html\n\nexit 0";
 		};
 		53DF54ED03D5162B4A4979FB /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -874,6 +874,7 @@
 				03F053811D9A1D80009AF040 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		336C52B81C3FFE4100B82743 /* Build configuration list for PBXProject "JK_MVVM" */ = {
 			isa = XCConfigurationList;

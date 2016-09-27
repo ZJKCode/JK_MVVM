@@ -38,4 +38,5 @@
     }
     return 44.0f ; // default cell height
 }
+
 @end
