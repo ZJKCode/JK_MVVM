@@ -23,4 +23,9 @@
     self.containtImage.image = ((indexPath.row) % 2 == 0) ? [UIImage imageNamed:@"phil"] : [UIImage imageNamed:@"dogebread"];
 
 }
+
++(CGFloat)getCellHeightWithCustomObj:(id)obj indexPath:(NSIndexPath *)indexPath
+{
+    return 140.0f;
+}
 @end

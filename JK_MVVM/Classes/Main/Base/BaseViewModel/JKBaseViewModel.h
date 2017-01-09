@@ -27,6 +27,8 @@
 
 - (NSUInteger)numberOfItemsInsection:(NSUInteger)section;
 
+- (CGFloat)cellHeightIndexPatch:(NSIndexPath *)index;
+
 - (void)getDataList:(NSString *)url params:(NSDictionary *)params success:(void(^)(NSArray *dataList))success falure:(void(^)(NSError *error))failure;
 
 - (void)getDataListSuccess:(void(^)())success failure:(void(^)())failure;

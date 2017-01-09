@@ -50,6 +50,10 @@
 
     return 0;
 }
+- (CGFloat *)cellHeightIndexPatch:(NSIndexPath *)index
+{
+    return 0;
+}
 
 - (void)getDataList:(NSString *)url params:(NSDictionary *)params success:(void(^)(NSArray *dataList))success falure:(void(^)(NSError *error))failure
 {

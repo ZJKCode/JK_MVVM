@@ -24,6 +24,11 @@
 
 }
 
+- (CGFloat )cellHeightIndexPatch:(NSIndexPath *)index
+{
+    return 140.0f;
+}
+
 -(void)getDataList:(NSString *)url
             params:(NSDictionary *)params
            success:(void (^)(NSArray *))success
